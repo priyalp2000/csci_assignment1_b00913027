@@ -19,7 +19,7 @@ export const Navbar = () => {
                 </Flex>
                 <Flex display={[isOpen ? "flex" : "none", "flex"]} bg={["bg-surface", "bg-surface"]} >
                     <Stack align="center" direction={["column", "row"]} spacing='30px' fontSize='xl'>
-                        <Link href='/home'>Home</Link>
+                        <Link href="/home">Home</Link>
                         <Link>Clubs</Link>
                         <Link>News and Updates</Link>
                         <Link>Watchlist</Link>
