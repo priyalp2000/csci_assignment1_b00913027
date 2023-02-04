@@ -1,7 +1,7 @@
 export const MovieDetails = [
     {
         id: 1,
-        imageUrl: 'src/images/1.jpeg',
+        imageUrl: '/src/images/1.jpeg',
         imageAlt: 'Movie',
         title: 'Avengers',
         rating: 8.5,
@@ -11,7 +11,7 @@ export const MovieDetails = [
     },
     {
         id: 2,
-        imageUrl: 'src/images/2.jpeg',
+        imageUrl: '/src/images/2.jpeg',
         imageAlt: 'Movie',
         title: 'Spiderman',
         rating: 8,
@@ -21,7 +21,7 @@ export const MovieDetails = [
     },
     {
         id: 3,
-        imageUrl: 'src/images/3.jpeg',
+        imageUrl: '/src/images/3.jpeg',
         imageAlt: 'Movie',
         title: 'Space',
         rating: 7,
