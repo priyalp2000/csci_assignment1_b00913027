@@ -1,0 +1,27 @@
+1. https://chakra-ui.com/docs/components/grid/usage
+2. https://chakra-ui.com/docs/components/image
+3. https://chakra-ui.com/docs/components/icon
+4. https://chakra-ui.com/docs/components/box/usage
+5. https://getbootstrap.com/docs/5.0/utilities/spacing/
+6. https://pro.chakra-ui.com/components/marketing/navbars
+7. https://chakra-ui.com/docs/components/avatar
+8. https://chakra-ui.com/docs/styled-system/text-and-layer-styles
+9. https://chakra-ui.com/docs/components/simple-grid
+10. https://codesandbox.io/s/2gi3i?file=/src/App.tsx:76-89
+11. https://medium.com/geekculture/create-a-simple-search-component-in-react-js-using-react-hooks-710c1dfe8b58#:~:text=Firstly%2C%20we%20import%20useState%20from,list%20received%20from%20the%20parent.
+12. https://www.imdb.com/?ref_=nv_home
+13. https://stock.adobe.com/ca/
+14. https://scrimba.com/articles/create-react-app-with-vite/
+15. https://codesandbox.io/s/dd8vn
+16. https://chakra-ui.com/docs/components/select
+17. https://chakra-templates.dev/navigation/navbar
+18. https://chakra-ui.com/docs/components/alert
+
+Installed Packages:
+
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion 
+npm install react-icons
+npm i @chakra-ui/icons
+npm i react-router-dom 
+npm i react-card-slider-component
+npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion chakra-ui-carousel
