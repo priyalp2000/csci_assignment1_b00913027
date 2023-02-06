@@ -3,6 +3,11 @@ import { GridItem, Image, Box, Button } from '@chakra-ui/react'
 import { StarIcon, AddIcon } from '@chakra-ui/icons';
 
 export function BoxOfMovie({movie}){
+
+    const handleClickEvents = async () => {
+        alert("Please Check Only Search Functionality...");
+    }
+
     return(
         <GridItem w='100%' h='100%' direction={["column", "row"]}>
             {/* Reference: https://chakra-ui.com/docs/components/box */}
@@ -33,7 +38,7 @@ export function BoxOfMovie({movie}){
                 </Box>
                 </Box>
 
-                <Button mt='3' leftIcon={<AddIcon />} colorScheme="teal" variant="solid" px={20} h={8}>
+                <Button mt='3' leftIcon={<AddIcon />} onClick={handleClickEvents} colorScheme="teal" variant="solid" px={20} h={8}>
                     Watchlist
                 </Button>
                 

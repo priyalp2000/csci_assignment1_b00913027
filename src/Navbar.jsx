@@ -4,6 +4,9 @@ import { HamburgerIcon } from '@chakra-ui/icons';
 export const Navbar = () => {
 
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const handleClickEvents = async () => {
+        alert("Please Check Only Search Functionality...");
+    }
 
     return(
         // Reference: https://chakra-templates.dev/navigation/navbar
@@ -19,10 +22,10 @@ export const Navbar = () => {
                 </Flex>
                 <Flex display={[isOpen ? "flex" : "none", "flex"]} bg={["bg-surface", "bg-surface"]} >
                     <Stack align="center" direction={["column", "row"]} spacing='30px' fontSize='xl'>
-                        <Link>Home</Link>
-                        <Link>Clubs</Link>
-                        <Link>News and Updates</Link>
-                        <Link>Watchlist</Link>
+                        <Link onClick={handleClickEvents}>Home</Link>
+                        <Link onClick={handleClickEvents}>Clubs</Link>
+                        <Link onClick={handleClickEvents}>News and Updates</Link>
+                        <Link onClick={handleClickEvents}>Watchlist</Link>
                         <Avatar name="Priyal Patel" src='https://bit.ly/broken-link' ml='96'/>
                     </Stack>
                 </Flex>

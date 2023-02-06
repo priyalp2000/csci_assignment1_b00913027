@@ -7,6 +7,9 @@ import {MovieDetails} from './Datafile.jsx';
 import ChakraCarousel from "./ChakraCarousel";
 
 const MostWatchedSlider = () => {
+    const handleClickEvents = async () => {
+        alert("Please Check Only Search Functionality...");
+    }
 
     return (
         // Reference: https://codesandbox.io/s/dd8vn
@@ -41,7 +44,7 @@ const MostWatchedSlider = () => {
                 </Box>
                 </Box>
 
-                <Button mt='3' leftIcon={<AddIcon />} colorScheme="teal" variant="solid" px={20} h={8}>
+                <Button mt='3' leftIcon={<AddIcon />} onClick={handleClickEvents} colorScheme="teal" variant="solid" px={20} h={8}>
                     Watchlist
                 </Button>
                 
