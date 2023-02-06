@@ -1,7 +1,7 @@
 export const MovieDetails = [
     {
         id: 1,
-        imageUrl: '/src/images/1.jpeg',
+        imageUrl: '/assets/images/1.jpeg',
         imageAlt: 'Movie',
         title: 'Avengers',
         rating: 8.5,
@@ -11,7 +11,7 @@ export const MovieDetails = [
     },
     {
         id: 2,
-        imageUrl: '/src/images/2.jpeg',
+        imageUrl: '/assets/images/2.jpeg',
         imageAlt: 'Movie',
         title: 'Spiderman',
         rating: 8,
@@ -21,7 +21,7 @@ export const MovieDetails = [
     },
     {
         id: 3,
-        imageUrl: '/src/images/3.jpeg',
+        imageUrl: '/assets/images/3.jpeg',
         imageAlt: 'Movie',
         title: 'Space',
         rating: 7,
@@ -31,7 +31,7 @@ export const MovieDetails = [
     },
     {
         id: 4,
-        imageUrl: 'src/images/4.jpeg',
+        imageUrl: '/assets/images/4.jpeg',
         imageAlt: 'Movie',
         title: 'Avatar',
         rating: 9,
@@ -41,7 +41,7 @@ export const MovieDetails = [
     },
     {
         id: 5,
-        imageUrl: 'src/images/5.jpeg',
+        imageUrl: '/assets/images/5.jpeg',
         imageAlt: 'Movie',
         title: 'Knock at the cabin',
         rating: 10,
@@ -51,7 +51,7 @@ export const MovieDetails = [
     },
     {
         id: 6,
-        imageUrl: 'src/images/6.jpeg',
+        imageUrl: '/assets/images/6.jpeg',
         imageAlt: 'Movie',
         title: 'Pathaan',
         rating: 9,
@@ -61,7 +61,7 @@ export const MovieDetails = [
     },
     {
         id: 7,
-        imageUrl: 'src/images/7.jpeg',
+        imageUrl: '/assets/images/7.jpeg',
         imageAlt: 'Movie',
         title: 'The Empire Strikes Back',
         rating: 4,
@@ -71,7 +71,7 @@ export const MovieDetails = [
     },
     {
         id: 8,
-        imageUrl: 'src/images/8.jpeg',
+        imageUrl: '/assets/images/8.jpeg',
         imageAlt: 'Movie',
         title: 'Megan',
         rating: 0,
@@ -81,7 +81,7 @@ export const MovieDetails = [
     },
     {
         id: 9,
-        imageUrl: 'src/images/9.jpeg',
+        imageUrl: '/assets/images/9.jpeg',
         imageAlt: 'Movie',
         title: 'Infinity Pool',
         rating: 4,
@@ -91,7 +91,7 @@ export const MovieDetails = [
     },
     {
         id: 10,
-        imageUrl: 'src/images/10.jpeg',
+        imageUrl: '/assets/images/10.jpeg',
         imageAlt: 'Movie',
         title: 'Glass Onion',
         rating: 7,

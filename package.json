@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://benevolent-sunburst-09719c.netlify.app",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
